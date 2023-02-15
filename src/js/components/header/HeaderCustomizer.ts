@@ -61,20 +61,20 @@ export default class HeaderCustomizer extends Component {
         tabs: [
             { name: "Profile", href: "/users/%userID%" },
             { name: "Posts", href: "/posts" },
-            { name: "Comments", href: "/comments?group_by=post" },
-            { name: "Artists", href: "/artists" },
-            { name: "Tags", href: "/tags" },
-            { name: "Blips", href: "/blips" },
-            { name: "Pools", href: "/pools" },
-            { name: "Sets", href: "/post_sets" },
-            { name: "Wiki", href: "/wiki_pages/help:home" },
-            { name: "Forum", href: "/forum_topics" },
-            { name: "Discord", href: "/static/discord" },
-            { name: "Help", href: "/help" },
-            { name: "More »", href: "/static/site_map" },
+            //{ name: "Comments", href: "/comments?group_by=post" },
+            //{ name: "Artists", href: "/artists" },
+            //{ name: "Tags", href: "/tags" },
+            //{ name: "Blips", href: "/blips" },
+            //{ name: "Pools", href: "/pools" },
+            //{ name: "Sets", href: "/post_sets" },
+            //{ name: "Wiki", href: "/wiki_pages/help:home" },
+            //{ name: "Forum", href: "/forum_topics" },
+            //{ name: "Discord", href: "/static/discord" },
+            //{ name: "Help", href: "/help" },
+            { name: "More »", href: "/static/site_map", right: true },
         ] as HeaderTab[],
 
-        forumUpdateDot: true,
+        forumUpdateDot: false,
     };
 
     public Keybinds = [

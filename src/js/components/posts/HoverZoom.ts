@@ -27,10 +27,10 @@ export default class HoverZoom extends Component {
     public Settings = {
         enabled: true,
 
-        mode: ImageZoomMode.HoldShift,              // How should the hover zoom be triggered
+        mode: ImageZoomMode.Hover,              // How should the hover zoom be triggered
         tags: true,                                 // Show a list of tags under the zoomed-in image
         time: true,                                 // If true, shows the timestamp in "x ago" format
-        skipBlacklisted: true,                      // Zoom does not get triggered for blacklisted posts
+        skipBlacklisted: false,                      // Zoom does not get triggered for blacklisted posts
 
         hotkeyDownload: "",                         // downloads the currently hovered over post
         hotkeyFullscreen: "",                       // opens the currently hovered over post in new tab

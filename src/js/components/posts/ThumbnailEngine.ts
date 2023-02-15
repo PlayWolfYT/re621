@@ -19,15 +19,15 @@ export default class ThumbnailEngine extends Component {
     public Settings = {
         enabled: true,
 
-        imageWidth: 150,
+        imageWidth: 250,
         imageRatio: 1,
         loadMethod: ImageLoadMethod.Preview,
         crop: false,
 
-        maxPlayingGIFs: 3,
+        maxPlayingGIFs: -1,
         ribbons: true,
 
-        highlightVisited: false,
+        highlightVisited: true,
         hideInfoBar: false,
         colorFavCount: true,
     };
